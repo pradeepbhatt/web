@@ -1,0 +1,403 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+     font-family: 'roboto' sans-serif;
+     color: #555555;
+     font-weight: 400;
+ }
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6{
+     color: black;
+     font-weight: 700;
+ }
+ h1{
+     font-size: 24px;
+ }
+ h2{
+     font-size: 20px;
+ }
+ h3{font-size: 18px;
+
+ }
+ h4{
+     font-size: 16px;
+ }
+ h5{
+     font-size: 14px;
+ }
+ h6{
+     font-size: 12px;
+ }
+ input,textarea{
+    margin: 5px 0;
+    width: 100%;
+    height: 42px;
+    border: 1px solid #dddddd;
+    padding: 0 15px;
+}
+textarea{
+    height: 60px;
+}
+button{
+    border: none;
+    background-color: #31ad7a;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 12px 20px;
+    border-radius: 22.5px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+#page-header{
+    background-color: #ffffff;
+    height: 126px; 
+    
+}
+.clear{
+    clear: both;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+
+}
+
+.wrapper{
+   
+    width: 1170px;
+   
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.logo{
+    padding: 15px 0;
+    float: left;
+}
+#site-nav{
+    float: right;
+    padding: 52px 0;
+
+
+}
+
+
+#site-nav ul li{
+ display: inline-block;
+
+    padding: 0 15px;
+    
+
+
+}
+#site-nav ul li a{
+    font-size: 18px;
+    color:black;
+    text-decoration: none;
+     list-style: none;
+    
+   
+
+}
+#site-nav ul li a:hover {
+    color: green;
+}
+  .banner{
+    
+      background: #488bca;
+background: -moz-linear-gradient(left,  #488bca 0%, #2989d8 50%, #207cca 99%);
+background: -webkit-linear-gradient(left,  #488bca 0%,#2989d8 50%,#207cca 99%);
+background: linear-gradient(to right,  #488bca 0%,#2989d8 50%,#207cca 99%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#488bca', endColorstr='#207cca',GradientType=1 );
+
+      
+     
+    
+  }  
+  .banner .wrapper{
+    position: relative;
+    padding: 50px 0 20px 0;
+    height: 540px;
+   
+     
+
+  }
+.banner-text{
+    width: 450px;
+color: #ffffff;
+float: left;
+margin-top: 100px;
+}
+.banner-text h1,
+.banner-text h3{
+    color:white;
+    text-transform: uppercase;
+    margin: 0 0;
+}
+ .banner-text h1{
+     font-size: 52px;
+     
+     font-weight: 600;
+
+ }
+ .banner-text h3{
+     font-size: 32px;
+     text-transform: 500;
+     margin-bottom: 42px;
+ }
+ .banner-text p{
+     width: 370px;
+ }
+ .banner-img{
+     left: 403px;
+     bottom:-6 px;
+     position: absolute;;
+ }
+ .banner-img img{
+
+ }
+ .banner-form{
+     background: white;
+     width: 332px;
+     padding: 30px;
+     float: right;
+     margin: 20px;
+ }
+ .banner-form h1{
+     font-size: 32px;
+     color: #31ad7a;
+     margin-bottom:20px ;
+ }
+.banner-form button{
+    width: 100%;
+} 
+.block-all{
+    padding: 32px 0 48px 0;
+    display: block;
+}
+.span-1,
+.span-2,
+.span-3,
+.span-4,
+.span-5,
+.span-6,
+.span-7,
+.span-8,
+.span-9,
+.span-10,
+.span-11,
+.span-12{ padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+}
+
+.span-1{
+    width:97.5px;
+}
+.span-2{
+    width: calc(97.5px * 2 );
+}
+.span-3{
+    width: calc(97.5px * 3 );
+}
+.span-4{
+    width: calc(97.5px * 4);
+}
+.span-5{
+    width: calc(97.5px * 5 );
+}
+.span-6{
+    width: calc(97.5px * 6 );
+}
+.span-7{
+    width: calc(97.5px * 7 );
+}
+.span-8{
+    width: calc(97.5px * 8 );
+}
+.span-9{
+    width: calc(97.5px * 9 );
+}
+.span-10{
+    width: calc(97.5px * 10 );
+}
+.span-11{
+    width: calc(97.5px * 11 );
+}
+.span-12{
+    width: calc(97.5px * 12 );
+}
+.content{
+    background-color:royalblue;
+    height: 100px;
+
+}
+.block-all .wrapper .span-8
+ .content{
+    height: 357px;
+    background-color: white;
+}
+.block-all .wrapper .span-4
+ .content{
+    height: 357px;
+    background-color: white;
+}
+.block-all .wrapper .span-8
+ .content h1{
+  
+   position: relative;
+  
+}
+.block-all .wrapper .span-8
+ .content h1::after{ position: absolute;
+    content:"";
+  width: 100px;
+  height: 3px;
+  display: block;
+  bottom: 0;
+  left: 0;
+  background: black;
+  margin-top: 16px;
+ 
+}
+.block-all .wrapper .span-8
+ .content p{
+   margin-top: 25px;
+
+}
+.block-all .wrapper .span-8
+ .content button{
+    border: none;
+    background-color: #31ad7a;
+    
+    font-size: 10;
+    font-weight: 100;
+    padding: 0 0 0 0 ;
+    border-radius:0;
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    -ms-border-radius:0;
+    -o-border-radius:0;
+    margin-top: 24px;
+}
+.span-4 .content h1{
+    position: relative;
+}
+.span-4 .content h1::after{
+    position: absolute;
+    content:"";
+    width: 100px;
+    height: 3px;
+    display: block;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+   
+}
+
+.span-4 .content .inner-content  p{
+    float: left;
+    padding-left: 32px;
+    display: inline-block;
+    background-image: url(../images/icons/tick.png);
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+    margin-top: 24px;
+}
+ .span-3 .content{
+    height: 376px;
+    background-color:white;
+}
+ .span-3 .content h1{
+     position: relative;
+     padding-top: 20px;
+
+ }
+ .span-3 .content h1::after{
+     position: absolute;
+     content: "";
+     width: 100px;
+     height: 3px;
+     bottom: 0;
+     left: 0;
+     display: block;
+     background-color: black;
+     
+
+ }
+ .span-3 .content img{
+     margin-top: 26px;
+
+ }
+ 
+.span-9 .content {
+    height: 269px;
+}
+.span-9 .content h2{
+    padding-top: 38px;
+    position: relative;
+}
+.span-9 .content h2::after{
+    position: absolute;
+    content: "";
+    width: 95px;
+    height: 3px;
+    display: block;
+    background-color: black;
+    bottom: 0;
+    left: 0;
+}
+.span-9 .content p{
+    float: left;
+    padding-left: 51px;
+    display: inline-block;
+    background-image: url(../images/icons/c.png);
+    background-repeat: no-repeat;
+    background-position-x: -2px;
+    margin-top: 24px;
+    padding-top: 18px;
+}
+ .span-3 .content img{
+    padding-top: 30px;
+    margin-left: 6px;
+    
+ }
+#footer-nav{
+    float: left;
+    padding: 34px 0;
+}
+
+#footer-nav ul li{
+    display: inline-block;
+   
+       padding: 0 15px;
+}
+#footer-nav ul li a{
+    font-size: 14px;
+    color:#5d5d5d;
+    text-decoration: none;
+     list-style: none;
+     margin-left: 15px;
+    
+   
+
+}
+#footer-nav ul li p{
+    float: left;
+}
+.p-footer{
+    float: left;
+}
+       
